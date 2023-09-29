@@ -1,0 +1,100 @@
+@media(min-width:320px){
+    .container{
+        max-width: 320px;
+    }
+       /* .container-section-our-team{
+            max-width: 320px;
+        }*/
+
+}
+
+
+@media(min-width:768px) {
+    .container {
+        max-width: 768px;
+    }
+
+        .ul-description-of-professions{
+            gap: 72px 24px;
+        }
+.li-description-of-professions{
+    flex-basis: calc((100% - 24px) / 2);
+}
+.heder-three{
+    text-align: start;
+}
+/*section-our-team*/
+
+.li-our-team{
+    flex-basis: calc((100% - 72px) / 2);
+}
+.container-section-our-team{
+    max-width: 768px;
+    padding: 0 108px;
+}
+.our-team{
+    display: flex;
+    gap:64px 24px;
+    justify-content: center;
+    flex-direction:row;
+    align-items: center;
+}
+.frame-icon{
+    max-width: 768px;
+}
+.list-icons-our-team{
+    padding: 0 16px;
+}
+}
+@media(min-width:1440px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 156px;
+    }
+
+    .ul-description-of-professions {
+        gap: 24px;
+    }
+
+    .li-description-of-professions {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+    .heder-three{
+        font-weight: 500;
+        font-size: 20px;
+        text-align: start;
+    }
+    .p-heder-three{
+        font-weight: 400;
+        width: 264px;
+    }
+        .section-description-of-professions {
+            background-color: var(--c-background-white);
+            padding: 120px 0;
+        }
+    
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--c-background-light);
+            border: 1px solid var(--c-border);
+            border-radius: 4px;
+            margin-bottom: 8px;
+            width: 264px;
+            height: 112px;
+            flex-shrink: 0;
+    
+        }
+         /*section-our-team*/
+        .li-our-team{
+        flex-basis: calc((100% - 3 * 24px) / 4);
+                 }
+        .section-our-team{
+            padding: 120px 0;
+        }
+ .container-section-our-team{
+    max-width: 1440px;
+    padding: 0 156px;
+ }
+}
