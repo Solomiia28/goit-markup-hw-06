@@ -1,6 +1,13 @@
 @media(min-width:320px){
     .container{
+        min-width: 320px;
         max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 16px;
+        padding-right: 16px;
+        outline: 2px solid red;
+        outline-offset: -2px;
     }
        /* .container-section-our-team{
             max-width: 320px;
@@ -11,7 +18,9 @@
 
 @media(min-width:768px) {
     .container {
-        max-width: 768px;
+        max-width: 736px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
         .ul-description-of-professions{
@@ -45,15 +54,80 @@
 .list-icons-our-team{
     padding: 0 16px;
 }
+/* section-portfolio*/
+.container-portfolio{
+    max-width: 768px;
+    padding: 0 16px;
 }
-@media(min-width:1440px) {
+.ul-our-portfolio{
+    display: flex;
+    gap: 72px 24px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.li-our-portfolio{
+    flex-basis: calc((100% - 24px) / 2);
+}
+.footer-container.container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 0 108px;
+}
+.footer-logo-container{
+    display: flex;
+        flex-direction: column;
+        align-items:start ;
+        justify-content: center;
+        padding: 0;
+        
+}
+.container-social-media{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+    margin: 0 auto;
+}
+.subscribe-footer{
+    display: flex;
+    align-items:start ;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.form-subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+}
+.footer-email-input{
+    width: 264px;
+}
+}
+@media only screen and (max-width:767.98px){
+    .ul-logo{
+        display: none;
+    }
+    .ul-address{
+        display: none;
+    }
+}
+@media(min-width:1158px) {
     .container {
         max-width: 1440px;
-        padding: 0 156px;
+       padding: 0 156px;
     }
 
     .ul-description-of-professions {
         gap: 24px;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
 
     .li-description-of-professions {
@@ -97,4 +171,68 @@
     max-width: 1440px;
     padding: 0 156px;
  }
+ .our-team{
+    flex-wrap: nowrap;
+ }
+ /*section-portfolio*/
+.section-portfolio{
+    padding: 120px 0;
+}
+.container-portfolio{
+    max-width: 1440px;
+    padding: 0 156px;
+}
+.ul-our-portfolio{
+    flex-wrap: wrap;
+     row-gap:48px ; 
+     column-gap: 24px;
+     margin-bottom: 0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: row;
+}
+.li-our-portfolio{
+    flex-basis: calc((100% - 48px) / 3);
+}
+.footer{
+    padding: 100px 0;
+}
+.footer-container.container{
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 156px;
+}
+
+.footer-logo-container{
+    margin-right: 120px;
+}
+.a-footer-logo{
+    margin-bottom: 16px;
+}
+.p-footer-logo-studio{
+    max-width: 264px;
+}
+.p-subscribe-footer{
+    margin-bottom: 16px;
+    padding-left: 80px;
+}
+.form-subscribe{
+    display: flex;
+    gap: 24px;
+}
+.footer-email{
+    padding-left: 80px;
+}
+.footer-email-input{
+width: 264px;
+border: 1px solid #ffffff;
+}
+.subscribe-footer{
+    display: flex;
+        flex-direction: column;
+        align-items: start;
+}
 }
