@@ -14,65 +14,64 @@
         }*/
 
 
-@media(min-width: 768px) {
+@media screen and (min-width: 768px){
     .container {
-        max-width: 768px; 
+        max-width: 768px;
     }
-
-        .ul-description-of-professions{
+        .ul-description-of-professions {
             gap: 72px 24px;
         }
-.li-description-of-professions{
+.li-description-of-professions {
     flex-basis: calc((100% - 24px) / 2);
 }
-.heder-three{
+.heder-three {
     text-align: start;
 }
 /*section-our-team*/
 
-.li-our-team{
+.li-our-team {
     flex-basis: calc((100% - 72px) / 2);
 }
-.container-section-our-team{
+.container-section-our-team {
     max-width: 768px;
     padding: 0 108px;
 }
-.our-team{
+.our-team {
     display: flex;
     gap:64px 24px;
     justify-content: center;
     flex-direction:row;
     align-items: center;
 }
-.frame-icon{
+.frame-icon {
     max-width: 768px;
 }
-.list-icons-our-team{
+.list-icons-our-team {
     padding: 0 16px;
 }
 /* section-portfolio*/
-.container-portfolio{
+.container-portfolio {
     max-width: 768px;
     padding: 0 16px;
 }
-.ul-our-portfolio{
+.ul-our-portfolio {
     display: flex;
     gap: 72px 24px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
 }
-.li-our-portfolio{
+.li-our-portfolio {
     flex-basis: calc((100% - 24px) / 2);
 }
-.footer-container.container {
+.footer-container .container {
     flex-wrap: wrap;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     padding: 0 108px;
 }
-.footer-logo-container{
+.footer-logo-container {
     display: flex;
         flex-direction: column;
         align-items:start ;
@@ -80,7 +79,7 @@
         padding: 0;
         
 }
-.container-social-media{
+.container-social-media {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -88,38 +87,39 @@
     justify-content: center;
     margin: 0 auto;
 }
-.subscribe-footer{
+.subscribe-footer {
     display: flex;
     align-items:start ;
     justify-content: center;
     flex-wrap: wrap;
     
 }
-.form-subscribe{
+.form-subscribe {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
     gap: 24px;
 }
-.footer-email-input{
+.footer-email-input {
     width: 264px;
 }
 }
-@media only screen and (max-width:767.98px){
-    .ul-logo{
+@media only screen and (max-width:767.98px) {
+    .ul-logo {
         display: none;
     }
-    .ul-address{
+    .ul-address {
         display: none;
     }
 }
-@media(min-width:1158px) {
+@media (min-width: 1158px) {
     .container {
-    max-width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
+
 
     .ul-description-of-professions {
         gap: 24px;
@@ -130,12 +130,12 @@
     .li-description-of-professions {
         flex-basis: calc((100% - 72px) / 4);
     }
-    .heder-three{
+    .heder-three {
         font-weight: 500;
         font-size: 20px;
         text-align: start;
     }
-    .p-heder-three{
+    .p-heder-three {
         font-weight: 400;
         width: 264px;
     }
@@ -158,30 +158,30 @@
     
         }
     /*section-our-team*/
-        .li-our-team{
+        .li-our-team {
         flex-basis: calc((100% - 3 * 24px) / 4);
     }
-        .section-our-team{
+        .section-our-team {
             padding: 120px 0;
         }
-.container-section-our-team{
+.container-section-our-team {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.our-team{
+.our-team {
     flex-wrap: nowrap;
 }
 /*section-portfolio*/
-.section-portfolio{
+.section-portfolio {
     padding: 120px 0;
 }
-.container-portfolio{
+.container-portfolio {
     max-width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
 }
-.ul-our-portfolio{
+.ul-our-portfolio {
     flex-wrap: wrap;
      row-gap:48px ; 
      column-gap: 24px;
@@ -191,22 +191,22 @@
      align-items: center;
      flex-direction: row;
 }
-.li-our-portfolio{
+.li-our-portfolio {
     flex-basis: calc((100% - 48px) / 3);
 }
-.footer{
+.footer {
     padding: 100px 0;
 }
-.footer-container{
-    max-width: 1158px;
+.footer-container.container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     padding: 0 156px;
+    flex-direction: row;
 }
 
-.footer-logo-container{
+.footer-logo-container {
     margin-right: 120px;
 }
 .a-footer-logo{
@@ -217,7 +217,7 @@
 }
 .p-subscribe-footer{
     margin-bottom: 16px;
-    padding-left: 80px;
+
 }
 .form-subscribe{
     display: flex;
