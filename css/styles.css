@@ -49,9 +49,13 @@ img{
 
   /*logo section*/
   .container {
-      width: 100%;
-      margin: 0 auto;
-      padding: 0 15px;
+      max-width: 320px;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 16px;
+      padding-right: 16px;
+      outline: 2px solid red;
+     outline-offset: -2px;
   }
 
  .header-inner{
@@ -92,6 +96,7 @@ img{
     margin-right: 76px;
     text-transform: uppercase;
     font-family: Raleway, sans-serif;
+    padding: 16px 0;
 
 }
 .ul-logo{
@@ -162,8 +167,20 @@ img{
     color: var(--с-variable);
 }
 .icon-heroicons{
-    background-color: #FFFFFF;
+    min-height: 24px;
+    min-width: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
     border: none;
+    background-color: transparent;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto;
+
+    
 }
 /*End logo section*/
 
@@ -302,9 +319,11 @@ img{
     
 }
 .container-section-our-team{
+    flex-direction: column;
     width: 100%;
-    margin: 0 auto;
-    padding: 0 28px;
+    margin:0 auto;
+    padding-left: 28px;
+    padding-right: 28px;
 background-color: var(--c-background-light);
 }
 .header-two-our-team{
@@ -358,6 +377,8 @@ background-color: var(--c-background-light);
 .list-icons-our-team{
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    align-items: center;
     gap: 24px;
 
 }
@@ -487,23 +508,26 @@ background-color: var(--c-background-light);
     /*padding: 100px 0;*/
     padding: 97px 0;
 }
-.footer-container.container{
+.footer-container{
    display: flex;
    flex-direction: column;
     align-items: center;
     justify-content: center;
     /*align-items: baseline;*/
-    width: 100%;
+    max-width: 320px;
     margin: 0 auto;
-    padding: 0 16px;
+   
 }
 .footer-logo-container{
     /*margin-right:120px;*/
-    display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0 16px;
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 0 16px;
+    outline: 2px solid red;
+        outline-offset: -2px;
 }
 .a-footer-logo{
     font-family: Raleway, sans-serif;

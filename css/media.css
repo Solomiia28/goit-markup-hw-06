@@ -1,4 +1,4 @@
-@media(min-width:320px){
+/*@media(min-width:320px){
     .container{
         min-width: 320px;
         max-width: 320px;
@@ -8,19 +8,15 @@
         padding-right: 16px;
         outline: 2px solid red;
         outline-offset: -2px;
-    }
+    }*/
        /* .container-section-our-team{
             max-width: 320px;
         }*/
 
-}
 
-
-@media(min-width:768px) {
+@media(min-width: 768px) {
     .container {
-        max-width: 736px;
-        padding-left: 16px;
-        padding-right: 16px;
+        max-width: 768px; 
     }
 
         .ul-description-of-professions{
@@ -120,8 +116,9 @@
 }
 @media(min-width:1158px) {
     .container {
-        max-width: 1440px;
-       padding: 0 156px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
     }
 
     .ul-description-of-professions {
@@ -160,27 +157,29 @@
             flex-shrink: 0;
     
         }
-         /*section-our-team*/
+    /*section-our-team*/
         .li-our-team{
         flex-basis: calc((100% - 3 * 24px) / 4);
-                 }
+    }
         .section-our-team{
             padding: 120px 0;
         }
- .container-section-our-team{
-    max-width: 1440px;
-    padding: 0 156px;
- }
- .our-team{
+.container-section-our-team{
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.our-team{
     flex-wrap: nowrap;
- }
- /*section-portfolio*/
+}
+/*section-portfolio*/
 .section-portfolio{
     padding: 120px 0;
 }
 .container-portfolio{
-    max-width: 1440px;
-    padding: 0 156px;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .ul-our-portfolio{
     flex-wrap: wrap;
@@ -198,9 +197,10 @@
 .footer{
     padding: 100px 0;
 }
-.footer-container.container{
-    max-width: 1440px;
+.footer-container{
+    max-width: 1158px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     padding: 0 156px;
