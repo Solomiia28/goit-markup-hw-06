@@ -862,12 +862,19 @@ fill: #F4F4FD;
     position: fixed;
     top: 0;
     left: 0;
+    transform: translateX(100%);
+    display: flex;
+    flex-direction: column;
     padding: 72px 16px 40px;
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
+    transition: transform 300ms ease-in;
 }
+.menu-container.is-open {
+    transform: translate(0);
 
+}
 .mobile-menu-btn {
     position: absolute;
     top: 24px;
@@ -887,6 +894,7 @@ fill: #F4F4FD;
 
 .mobile-menu-list {
     display: inline;
+    margin-bottom: auto;
 }
 
 .mobile-menu-item:not(:last-child) {
@@ -899,12 +907,14 @@ fill: #F4F4FD;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--c-primary);
 }
 .mobile-menu-link.current{
 color: var(--с-variable);
 }
 .mobile-contacts {
     display: inline;
+    margin-bottom: 48px;
 }
 
 .mobile-contacts-item:not(:last-child) {
@@ -916,6 +926,7 @@ color: var(--с-variable);
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        color: var(--c-primary-slate);
 }
 .mobile-contacts-link.accent{
     color: var(--c-brand);
