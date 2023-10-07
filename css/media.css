@@ -69,7 +69,6 @@
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
-    padding: 0 108px;
 }
 .footer-logo-container {
     display: flex;
@@ -201,8 +200,7 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: center;
-    padding: 0 156px;
+    align-items: baseline;
     flex-direction: row;
 }
 
@@ -217,6 +215,7 @@
 }
 .p-subscribe-footer{
     margin-bottom: 16px;
+    padding-left: 80px;
 
 }
 .form-subscribe{
