@@ -18,6 +18,14 @@
     .container {
         max-width: 768px;
     }
+    /*hero-section*/
+    .hero_section{
+        max-width: 768px;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/Dark-bg_tab.jpg');
+    }
+    .header-menu-toggle {
+            display: none;
+        }
         .ul-description-of-professions {
             gap: 72px 24px;
         }
@@ -119,8 +127,13 @@
         padding-left: 15px;
         padding-right: 15px;
     }
-
-
+.hero_section {
+    max-width: 1158px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/people-office.jpg');
+}
+.header-menu-toggle{
+    display: none;
+}
     .ul-description-of-professions {
         gap: 24px;
         flex-wrap: nowrap;
