@@ -65,6 +65,7 @@
     flex-basis: calc((100% - 24px) / 2);
 }
 .footer-container .container {
+    max-width: 768px;
     flex-wrap: wrap;
     display: flex;
     justify-content: flex-start;
