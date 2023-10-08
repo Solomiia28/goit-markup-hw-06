@@ -89,7 +89,8 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: baseline;
 }
 .footer-logo-container {
     display: flex;
@@ -291,6 +292,7 @@ border: 1px solid #ffffff;
     display: flex;
         flex-direction: column;
         align-items: start;
+        margin-top: 0;
 }
 .modal {
     position: absolute;

@@ -183,7 +183,6 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 /*Hero section*/
 .hero_section{
     background-image:linear-gradient(rgba(46,47,66,0.7),rgba(46,47,66,0.7)),url('../images/background-image/Dark-bg_mob.jpg');
-    max-width:320px;
     background-color: var(--c-primary);
     background-repeat: no-repeat ;
     background-size: cover;
