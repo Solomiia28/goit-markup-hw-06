@@ -1,18 +1,16 @@
-/*@media(min-width:320px){
-    .container{
-        min-width: 320px;
-        max-width: 320px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-left: 16px;
-        padding-right: 16px;
-        outline: 2px solid red;
-        outline-offset: -2px;
-    }*/
-       /* .container-section-our-team{
-            max-width: 320px;
-        }*/
-
+@media (min-width:320px){
+    .hero_section{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/Dark-bg_mob.jpg');
+    }
+}
+ @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+ screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+.hero_section {
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+url('../images/background-image/Dark-bg_mob@2x.jpg');
+}
+}
 
 @media screen and (min-width: 768px){
     .container {
@@ -30,7 +28,13 @@
         max-width: 768px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/Dark-bg_tab.jpg');
     }
-    
+        @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+        screen and (min-resolution: 192dpi) and (min-width: 768px),
+        screen and (min-resolution: 2dppx) and (min-width: 768px) {
+            .hero_section {
+                background-image: url('../images/background-image/Dark-bg_tab@2x.jpg');
+            }
+        }
     .header-menu-toggle {
             display: none;
         }
@@ -80,7 +84,7 @@
 .li-our-portfolio {
     flex-basis: calc((100% - 24px) / 2);
 }
-.footer-container{
+.container.footer-container{
     max-width: 768px;
     display: flex;
     flex-wrap: wrap;
@@ -158,6 +162,13 @@ transform: translate(-50%, -50%) scale(1);
 .hero_section {
     max-width: 1158px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/people-office.jpg');
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
+screen and (min-resolution: 192dpi) and (min-width: 1200px),
+screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+    .hero_section {
+        background-image: url('../images/background-image/people-office\ 1_desc@2x.jpg');
+    }
 }
 .header-menu-toggle{
     display: none;
@@ -238,7 +249,7 @@ transform: translate(-50%, -50%) scale(1);
 .footer {
     padding: 100px 0;
 }
-.footer-container{
+.container.footer-container{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -259,11 +270,17 @@ transform: translate(-50%, -50%) scale(1);
     padding-left: 80px;
 
 }
+.container-social-media{
+    margin: 0;
+    padding-right: 80px;
+}
 .form-subscribe{
     display: flex;
     gap: 24px;
 }
 .footer-email{
+    padding-left: 80px;
+    padding-top: 16px;
 
 }
 .footer-email-input{

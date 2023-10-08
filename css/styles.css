@@ -505,7 +505,7 @@ background-color: var(--c-background-light);
     /*padding: 100px 0;*/
     padding: 97px 0;
 }
-.footer-container{
+ .container.footer-container{
    display: flex;
    flex-direction: column;
     align-items: center;
