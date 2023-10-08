@@ -84,7 +84,7 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
 .li-our-portfolio {
     flex-basis: calc((100% - 24px) / 2);
 }
-.footer-container.container{
+.container.footer-inner{
     max-width: 768px;
     display: flex;
     flex-wrap: wrap;
@@ -249,7 +249,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 .footer {
     padding: 100px 0;
 }
-.footer-container.container{
+.container.footer-inner{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
