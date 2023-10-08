@@ -29,7 +29,6 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
     
     /*hero-section*/
     .hero_section{
-        
         width: 100%;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/Dark-bg_tab.jpg');
     }
