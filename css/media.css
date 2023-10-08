@@ -18,6 +18,12 @@
     .container {
         max-width: 768px;
     }
+    .ul-address{
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: end;
+    }
     /*hero-section*/
     .hero_section{
         max-width: 768px;
