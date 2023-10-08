@@ -278,6 +278,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 .form-subscribe{
     display: flex;
     gap: 24px;
+    align-items: baseline;
 }
 .footer-email{
     padding-left: 80px;
