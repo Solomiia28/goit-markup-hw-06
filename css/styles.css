@@ -54,8 +54,6 @@ img{
       margin-right: auto;
       padding-left: 16px;
       padding-right: 16px;
-      outline: 2px solid red;
-     outline-offset: -2px;
   }
 
  .header-inner{
@@ -521,8 +519,7 @@ background-color: var(--c-background-light);
     align-items: center;
     justify-content: center;
     text-align: left;
-    outline: 2px solid red;
-        outline-offset: -2px;
+   
 }
 .a-footer-logo{
     font-family: Raleway, sans-serif;
