@@ -684,15 +684,19 @@ background-color: var(--c-background-light);
 
 .modal{
     position: absolute;
-    width: 408px;
-    min-height: 584px;
+   /* width: 408px;
+    min-height: 584px;*/
+    width: 288px;
+    min-height: 623px;
     top: 50%;
     left: 50%;
     background-color:#FCFCFC;
     border-radius: 4px;
     padding-top: 72px;
-    padding-left: 24px;
-    padding-right: 24px;
+    /*padding-left: 24px;
+    padding-right: 24px;*/
+    padding-left: 16px;
+    padding-right: 16px;
     padding-bottom: 24px;
     box-shadow:0px 1px 1px rgba(0, 0, 0, 0.14),
                0px 1px 3px rgba(0, 0, 0, 0.12),
