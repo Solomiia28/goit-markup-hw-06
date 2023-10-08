@@ -48,6 +48,9 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
 .li-description-of-professions {
     flex-basis: calc((100% - 24px) / 2);
 }
+.section-description-of-professions{
+    padding: 96px 0;
+}
 .heder-three {
     text-align: start;
 }
