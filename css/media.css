@@ -10,6 +10,10 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
 url('../images/background-image/Dark-bg_mob@2x.jpg');
 }
+.portfolio-foto{
+    width: 288px;
+    height: 280px;
+}
 }
 
 @media screen and (min-width: 768px){
@@ -83,6 +87,10 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
 }
 .li-our-portfolio {
     flex-basis: calc((100% - 24px) / 2);
+}
+.portfolio-foto{
+    width: 356px;
+    height: 300;
 }
 .container.footer-inner{
     max-width: 768px;
