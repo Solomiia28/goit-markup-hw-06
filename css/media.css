@@ -277,8 +277,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 .form-subscribe{
     display: flex;
+    justify-content: center;
+    align-items:baseline;
+    flex-direction: row;
     gap: 24px;
-    align-items: baseline;
 }
 .footer-email{
     padding-left: 80px;
