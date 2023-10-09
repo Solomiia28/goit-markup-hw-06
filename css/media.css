@@ -39,6 +39,21 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
                 background-image: url('../images/background-image/Dark-bg_tab@2x.jpg');
             }
         }
+
+    .heder-one {
+    max-width: 496px;
+    height: 120px;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 48px;
+                }
+        .header-inner{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 72px;
+        }
     .header-menu-toggle {
             display: none;
         }
@@ -174,6 +189,8 @@ transform: translate(-50%, -50%) scale(1);
     }
 .hero_section {
     width: 100%;
+    padding-top: 188px;
+    padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/background-image/people-office.jpg');
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
@@ -182,6 +199,14 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero_section {
         background-image: url('../images/background-image/people-office\ 1_desc@2x.jpg');
     }
+}
+.heder-one{
+    max-width: 496px;
+    height: 120px;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 48px;
 }
 .header-menu-toggle{
     display: none;
