@@ -150,6 +150,9 @@ url('../images/background-image/Dark-bg_mob@2x.jpg');
     flex-direction: row;
     gap: 24px;
 }
+.privacy-span{
+    display: inline-flex;
+}
 .footer-email-input {
     width: 264px;
 }
