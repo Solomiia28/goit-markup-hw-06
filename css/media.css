@@ -280,7 +280,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     max-width: 264px;
 }
 .p-subscribe-footer{
-    padding-left: 80px;
+
 
 }
 .container-social-media{
@@ -293,9 +293,9 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     align-items:baseline;
     flex-direction: row;
     gap: 24px;
+    margin: 0;
 }
 .footer-email{
-    padding-left: 80px;
     padding-top: 16px;
 
 }
