@@ -299,6 +299,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
 }
 
 .footer-logo-container {
+    margin-right: 120px;
     
 }
 .a-footer-logo{
